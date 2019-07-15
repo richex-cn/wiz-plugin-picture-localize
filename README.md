@@ -1,11 +1,14 @@
 # 开发文档
 
-### 参考链接
+### 相关链接
 
 [4.4 版本插件开发API文档](http://www.wiz.cn/manual/plugin/)
 
 [4.5 版本插件开发API文档](http://www.wiz.cn/plugin-api-document-45.html)
 
+[GitHub 项目地址](https://github.com/richex-cn/wiz-plugin-picture-localize)
+
+[码云 项目地址](https://gitee.com/Richex/wiz-plugin-picture-localize)
 
 
 ### 文件说明
