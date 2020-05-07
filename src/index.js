@@ -52,7 +52,7 @@ alert('所有网络图片已经下载并转换到本地！')
  */
 
 function convertImgSrctoLocal(src) {
-  if (!isHttpSrc(src)) return src
+  if (!isHttpSrc(src) || ~src.indexOf('www.zhihu.com/equation')) return src
 
   let match = src.match(regMatchExt)
   let ext = match ? match[1] : 'jpg'
