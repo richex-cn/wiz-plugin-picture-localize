@@ -28,13 +28,11 @@ newHtml = html.replace(MarkdownRegex, (whole, a, b, c, d) => {
 });
 
 // html
-let HtmlRegex = /<img.*src=['"](.*?)['"].*?\/?>/gi;
-newHtml = newHtml.replace(HtmlRegex, (whole, a) => {
-  let src = a;
-  if (isHttpSrc(a)) src = convertImgSrctoLocal(a);
-
-  imagePaths.push(buildImageTag(documentTempPath + src));
-  return src;
+let HtmlRegex = /(<img.*?src=['"])(.+?)(['"].*?\/?>)/gi;
+newHtml = newHtml.replace(HtmlRegex, (whole, group1, group2, group3) => {
+  group2 = convertImgSrctoLocal(group2)
+  imagePaths.push(buildImageTag(documentTempPath + group2));
+  return group1 + group2 + group3
 });
 
 let uniq = _uniq(imagePaths);
