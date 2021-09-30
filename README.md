@@ -12,11 +12,9 @@ PictureLocalize（图片本地化）
 
 ### 插件安装
 
-下载 `Picture.Localize.wizplugin` 这个文件，然后双击运行即可。
+下载 [Picture.Localize.wizplugin](https://github.com/richex-cn/wiz-plugin-picture-localize/raw/master/Picture.Localize.wizplugin) 文件，双击运行即可。
 
-> 如果您使用的是便携版本的为知笔记，那么可能无法直接双击为知笔记 plugin 文件进行安装，此时，您可以通过将为知笔记 plugin 文件拖放到为知笔记窗口上面进行安装。
-
-> 注意：可以拖放到为知笔记标题栏，而不要拖放到为知笔记文档窗口上面，会被当成添加文档附件。
+> Note: 如果您使用的是便携版本的为知笔记，可能无法直接双击为知笔记 plugin 文件进行安装，可以将下载的文件拖放到为知笔记窗口上面进行安装（建议拖放到标题栏，在文档窗口中会被当成附件添加）。
 
 
 ### 插件位置
