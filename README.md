@@ -1,8 +1,12 @@
-# 插件介绍
+# 为知笔记图片本地化插件 [![](https://img.shields.io/github/stars/richex-cn/wiz-plugin-picture-localize?style=social)](https://github.com/richex-cn/wiz-plugin-picture-localize) [![star](https://gitee.com/Richex/wiz-plugin-picture-localize/badge/star.svg?theme=dark)](https://gitee.com/Richex/wiz-plugin-picture-localize)
+
+[![](https://img.shields.io/github/license/richex-cn/wiz-plugin-picture-localize)](https://github.com/richex-cn/wiz-plugin-picture-localize/blob/master/LICENSE) [![](https://shields.io/github/v/release/richex-cn/wiz-plugin-picture-localize)](https://github.com/richex-cn/wiz-plugin-picture-localize/releases/latest) [![](https://shields.io/github/issues-raw/richex-cn/wiz-plugin-picture-localize)](https://github.com/richex-cn/wiz-plugin-picture-localize/issues) [![](https://shields.io/github/issues-closed-raw/richex-cn/wiz-plugin-picture-localize)](https://github.com/richex-cn/wiz-plugin-picture-localize/issues?q=is%3Aissue+is%3Aclosed) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
+一个为知笔记（WizNote）的图片本地化插件，可以将笔记中所有的网络图片下载至笔记本地并替换。
 
 保存在为知笔记中的图片，很多图片有可能是引入的网络资源，时间一长如果图片服务器被关闭或者图片被删除导致无法访问，那么笔记中的图片也将无法加载显示。
 
-通过本插件可以将笔记中的图片全部保存在本地笔记中，比起引用网络资源，保存到本地后图片和笔记保存在一起，不用再担心图片资源失效的问题，还可以在没有网络的环境下正常查看笔记。
+通过本插件可以将笔记中的图片全部保存在本地笔记中，比起引用网络资源，保存到本b地后图片和笔记保存在一起，不用再担心图片资源失效的问题，还可以在没有网络的环境下正常查看笔记。
 
 插件暂时仅在 Windows 10 下测试通过，其他版本或系统欢迎使用过的通过 Issue 反馈。
 
@@ -95,8 +99,4 @@ PictureLocalize（图片本地化）
 [4.4 版本插件开发API文档](http://www.wiz.cn/manual/plugin/)
 
 [4.5 版本插件开发API文档](http://www.wiz.cn/plugin-api-document-45.html)
-
-[GitHub 项目地址](https://github.com/richex-cn/wiz-plugin-picture-localize)
-
-[码云 项目地址](https://gitee.com/Richex/wiz-plugin-picture-localize)
 
