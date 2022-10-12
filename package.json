@@ -1,0 +1,19 @@
+{
+  "name": "picture-localize",
+  "version": "1.2.0",
+  "description": "一个为知笔记（WizNote）的图片本地化插件，可以将笔记中所有的网络图片下载至笔记本地并替换。",
+  "main": "index.js",
+  "homepage": "https://github.com/richex-cn/wiz-plugin-picture-localize",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richex-cn/wiz-plugin-picture-localize.git"
+  },
+  "keywords": [
+    "wiznote",
+    "wiz",
+    "wizplugin",
+    "plugin"
+  ],
+  "author": "i@richex.cn",
+  "license": "MIT"
+}
