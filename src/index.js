@@ -45,7 +45,7 @@ newHtml = newHtml.replace(
 )
 
 objDocument.UpdateDocument3(newHtml, 0)
-alert('所有网络图片已经下载并转换到本地！')
+objWindow.ShowMessage('所有网络图片已经下载并转换到本地', '下载完成', 0)
 
 /**
  * functions
