@@ -7,7 +7,7 @@ import {
 } from 'node:fs'
 import esbuild from 'esbuild'
 import copy from 'esbuild-copy-plugin'
-import { clean } from 'esbuild-plugin-clean'
+import clear from 'esbuild-plugin-clear'
 import iconv from 'iconv-lite'
 import JSZip from 'jszip'
 
@@ -19,9 +19,7 @@ esbuild
     outfile: 'dist/index.utf8.js',
     plugins: [
       copy({ from: 'src/plugin.ini', to: 'plugin.utf8.ini' }),
-      clean({
-        patterns: ['dist/*']
-      })
+      clear('dist')
     ]
   })
   .then(val => {
